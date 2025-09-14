@@ -15,7 +15,7 @@
 import java.util.*;
 import java.io.*;
 
-public class pa01 {
+public class HillCipher {
 
 	
 	//Global variable matrixSize to retain size of matrix through entire process
@@ -167,3 +167,4 @@ public class pa01 {
 	}
 
 }
+
