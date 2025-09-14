@@ -27,24 +27,20 @@ javac pa01.java
 ```bash
 java pa01 kX.txt pX.txt
 ```
-kX.txt - key matrix file (first line: matrix size, following lines: integers of the matrix)
-pX.txt - plaintext file (ASCII text)
+k.txt - key matrix file (first line: matrix size, following lines: integers of the matrix)
 
-Example kX.txt:
-```bash
-3
-6 24 1
-13 16 10
-20 17 15
-```
-Example Output
-```bash
-Key matrix:
+p.txt - plaintext file (ASCII text)
+
+## Example Output
+Example k.txt:
+   ```bash
+   3
    6  24   1
   13  16  10
   20  17  15
 ```
 Plaintext: attackatdawn
+
 Resultant ciphertext: lxfopvefrnhr
 
 Created by Charles (Jake) Matthews
