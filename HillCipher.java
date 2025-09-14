@@ -2,10 +2,10 @@
 |  Encrypting a plaintext file using the Hill cipher
 |
 | Author: Charles Matthews
-| Language: C
-| To Compile: gcc -o pa01 pa01.c
-| To Execute: ./pa01 kX.txt pX.txt
-| where kX.txt is the keytext file and pX.txt is plaintext file
+| Language: Java
+| To Compile: javac pa01.java
+| To Execute: java pa01 k.txt p.txt
+| where k.txt is the keytext file and p.txt is plaintext file
 |
 | Note:
 | All input files are simple 8 bit ASCII input
@@ -165,4 +165,5 @@ public class pa01 {
 
 	    return ciphertext.toString();
 	}
+
 }
